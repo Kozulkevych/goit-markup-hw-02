@@ -1,0 +1,199 @@
+:root {
+  --primary-light-text-color: #757575;
+  --secondary-ligh-text-color: #ffffff;
+  --primary-dark-text-color: #000000;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-light-bg-color: #FFFFFF;
+  --secondary-light-bg-color: #F5F4FA;
+  --primary-dark-bg-color: #2F303A;
+}
+
+/* body */
+
+body {
+  background-color: var(--primary-light-bg-color);
+  color: var(--primary-light-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* Шапка сторінки */
+
+/* logo */
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31/26);
+  text-decoration: none;
+}
+.logo.primary {
+  color: var(--primary-dark-text-color);
+}
+.logo.secondary {
+  color: var(--secondary-ligh-text-color);
+}
+
+/* site-nav */
+
+.nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: calc(16/14);
+  letter-spacing: 0.02em;
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+.nav .link.current {
+  color: var(--accent-color);
+}
+.site-address .link {
+  color: var(--primary-light-text-color);
+  font-weight: 500;
+  line-height: calc(16/14);
+  letter-spacing: 0.02em;
+}
+.site-address .link:hover,
+.site-address .link:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* Герой */
+
+.hero-section {
+    background-color: var(--primary-dark-bg-color);
+}
+.hero-title {
+  color: var(--secondary-ligh-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60/44);
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/* button hero */
+
+.hero-btn {
+  color: var(--secondary-ligh-text-color);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  letter-spacing: 0.06em;
+  align-items: center;
+  border-color: transparent;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
+}
+
+/* title */
+
+.title {
+    color: var(--title-text-color)
+}
+
+/* Особливості */
+
+.features.title {
+  line-height: calc(16/14);
+}
+.features-descr {
+    line-height: calc(24/14);
+}
+/* Чим ми займаємося */
+
+/* Наша команда */
+
+.team-section {
+    background-color: var(--secondary-light-bg-color);
+}
+.team-name.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+.team-position {
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;       
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--primary-dark-bg-color);
+}
+.address.link{
+  color: var(--secondary-ligh-text-color);
+}
+.contacts.link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address .link {
+    line-height: calc(24/14);
+    font-style: normal;
+}
+.footer-address .link:hover,
+.footer-address .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+/* button filter */
+
+.filter-btn {
+  background-color: var(--secondary-light-bg-color);
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26/16);
+  border-color: transparent;
+}
+.filter-btn:focus,
+.filter-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-ligh-text-color);
+}
+.filter-btn .curent {
+  background-color: var(--accent-color);
+}
+/* Проекти */
+
+.project.title {
+  font-size: 18px;
+  line-height: calc(36/18);
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: calc(30/16);
+}
