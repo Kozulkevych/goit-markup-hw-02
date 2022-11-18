@@ -4,9 +4,9 @@
   --primary-dark-text-color: #000000;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primary-light-bg-color: #FFFFFF;
-  --secondary-light-bg-color: #F5F4FA;
-  --primary-dark-bg-color: #2F303A;
+  --primary-light-bg-color: #ffffff;
+  --secondary-light-bg-color: #f5f4fa;
+  --primary-dark-bg-color: #2f303a;
 }
 
 /* body */
@@ -15,9 +15,7 @@ body {
   background-color: var(--primary-light-bg-color);
   color: var(--primary-light-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  font-weight: 500;
 }
 /* Шапка сторінки */
 
@@ -28,8 +26,8 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: calc(31/26);
-  text-decoration: none;
+  letter-spacing: 0.03em;
+  line-height: calc(31 / 26);
 }
 .logo.primary {
   color: var(--primary-dark-text-color);
@@ -42,8 +40,8 @@ body {
 
 .nav .link {
   color: var(--title-text-color);
-  font-weight: 500;
-  line-height: calc(16/14);
+  font-size: 14px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .nav .link:hover,
@@ -55,8 +53,8 @@ body {
 }
 .site-address .link {
   color: var(--primary-light-text-color);
-  font-weight: 500;
-  line-height: calc(16/14);
+  font-size: 14px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 .site-address .link:hover,
@@ -67,19 +65,19 @@ body {
   list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Герой */
 
 .hero-section {
-    background-color: var(--primary-dark-bg-color);
+  background-color: var(--primary-dark-bg-color);
 }
 .hero-title {
   color: var(--secondary-ligh-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60/44);
+  line-height: calc(60 / 44);
   letter-spacing: 0.06em;
   text-align: center;
 }
@@ -91,11 +89,11 @@ body {
   background-color: var(--accent-color);
   font-size: 16px;
   font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30/16);
+  line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   align-items: center;
   border-color: transparent;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -107,57 +105,62 @@ body {
 .section-title {
   color: var(--title-text-color);
   font-size: 36px;
-  line-height: calc(42/36);
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
 /* title */
 
 .title {
-    color: var(--title-text-color)
+  color: var(--title-text-color);
 }
 
 /* Особливості */
 
 .features.title {
-  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+  line-height: calc(16 / 14);
 }
 .features-descr {
-    line-height: calc(24/14);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(24 / 14);
 }
 /* Чим ми займаємося */
 
 /* Наша команда */
 
 .team-section {
-    background-color: var(--secondary-light-bg-color);
+  background-color: var(--secondary-light-bg-color);
 }
 .team-name.title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(19/16);
-    text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: calc(19 / 16);
+  text-align: center;
 }
 .team-position {
-    font-size: 16px;
-    line-height: calc(19/16);
-    text-align: center;       
+  letter-spacing: 0.03em;
+  line-height: calc(19 / 16);
+  text-align: center;
 }
 
 /* footer */
 
 .footer {
-    background-color: var(--primary-dark-bg-color);
+  background-color: var(--primary-dark-bg-color);
 }
-.address.link{
+.address.link {
   color: var(--secondary-ligh-text-color);
 }
 .contacts.link {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-address .link {
-    line-height: calc(24/14);
-    font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: calc(24 / 14);
 }
 .footer-address .link:hover,
 .footer-address .link:focus,
@@ -173,10 +176,11 @@ body {
 .filter-btn {
   background-color: var(--secondary-light-bg-color);
   color: var(--title-text-color);
-  font-weight: 500;
   font-size: 16px;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   border-color: transparent;
+  cursor: pointer;
 }
 .filter-btn:focus,
 .filter-btn:hover {
@@ -190,10 +194,10 @@ body {
 
 .project.title {
   font-size: 18px;
-  line-height: calc(36/18);
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 .project-type {
-  font-size: 16px;
-  line-height: calc(30/16);
+  letter-spacing: 0.03em;
+  line-height: calc(30 / 16);
 }
