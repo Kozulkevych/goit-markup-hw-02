@@ -121,6 +121,7 @@ body {
 /* Особливості */
 
 .features.title {
+  font-size: 14px;
   letter-spacing: 0.03em;
   line-height: calc(16 / 14);
 }
