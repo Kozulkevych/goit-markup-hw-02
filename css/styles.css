@@ -19,6 +19,14 @@ body {
 }
 /* Шапка сторінки */
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* logo */
 
 .logo {
@@ -60,12 +68,6 @@ body {
 .site-address .link:hover,
 .site-address .link:focus {
   color: var(--accent-color);
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
 }
 
 /* Герой */
@@ -161,6 +163,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   line-height: calc(24 / 14);
+  font-style: normal;
 }
 .footer-address .link:hover,
 .footer-address .link:focus,
